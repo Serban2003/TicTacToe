@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <link rel='shortcut icon' type='image/png' href='icon.png'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="tic,tac,toe,puzzle,1v1">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+
+<div class="backgr"><div id="backgr_turn" class="backgr_turn">- Player turn -
+    <div id="turn" class="turn">
+<div id="turn1" class="turn_player1"><b>Player1</div>
+<div id="turn2" class="turn_player2">Player2</b></div>
+    </div>
+</div>
+    <div class="cell" onclick="nr=1; Cell(); " style="top:0px; left: 0px;">
+        <img src="X.png" id="X1" class="selection">
+        <img src="O.png" id="O1" class="selection">
+    </div>
+    <div class="cell1" id="cell1" style="top:0px; left: 0px;"></div>
+    <div class="cell" onclick=" nr=2; Cell();"style="top:0px; left: 150px;">
+        <img src="X.png" id="X2" class="selection">
+        <img src="O.png" id="O2" class="selection"></div>
+        <div class="cell1" id="cell2" style="top:0px; left: 150px;"></div>
+    <div class="cell" onclick="nr=3;Cell(); "style="top:0px; left: 300px;">
+        <img src="X.png" id="X3" class="selection">
+        <img src="O.png" id="O3" class="selection"></div>
+        <div class="cell1" id="cell3" style="top:0px; left: 300px;"></div>
+    <div class="cell" onclick="nr=4;Cell(); "style="top:150px; left: 0px;">
+        <img src="X.png" id="X4" class="selection">
+        <img src="O.png" id="O4" class="selection"></div>
+        <div class="cell1" id="cell4" style="top:150px; left: 0px;"></div>
+    <div class="cell" onclick="nr=5;Cell(); "style="top:150px; left: 150px;">
+        <img src="X.png" id="X5" class="selection">
+        <img src="O.png" id="O5" class="selection"></div>
+        <div class="cell1" id="cell5" style="top:150px; left: 150px;"></div>
+    <div class="cell" onclick="nr=6;Cell(); "style="top:150px; left: 300px;">
+        <img src="X.png" id="X6" class="selection">
+        <img src="O.png" id="O6" class="selection"></div>
+        <div class="cell1" id="cell6" style="top:150px; left: 300px;"></div>
+        <div class="cell" onclick="nr=7;Cell(); "style="top:300px; left: 0px;">
+        <img src="X.png" id="X7" class="selection">
+        <img src="O.png" id="O7" class="selection"></div>
+        <div class="cell1" id="cell7" style="top:300px; left: 0px;"></div>
+    <div class="cell" onclick="nr=8;Cell(); "style="top:300px; left: 150px;">
+        <img src="X.png" id="X8" class="selection">
+        <img src="O.png" id="O8" class="selection"></div>
+        <div class="cell1" id="cell8" style="top:300px; left: 150px;"></div>
+    <div class="cell" onclick=" nr=9;Cell();"style="top:300px; left: 300px;">
+        <img src="X.png" id="X9" class="selection">
+        <img src="O.png" id="O9" class="selection"></div>
+        <div class="cell1" id="cell9" style="top:300px; left: 300px;"></div>
+</div>
+
+    
+
+<div id="win_player1"class="win_player">
+    <h1 style="position:absolute; top:200px; left: 160px;">Player1 won!</h1>
+    <button onclick="window.location.reload()" class="restart_button">Restart</button>
+</div>
+<div id="win_player2"class="win_player">
+    <h1 style="position:absolute; top:180px; left: 160px;">Player2 won!</h1>
+    <button onclick="window.location.reload()" class="restart_button">Restart</button>
+</div>
+<div id="tie"class="win_player">
+    <h1 style="position:absolute; top:180px; left: 220px;">Tie!</h1>
+    <button onclick="window.location.reload()" class="restart_button">Restart</button>
+</div>
+</body>
+</html>
+<script src="script.js"></script>

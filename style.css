@@ -1,0 +1,199 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.backgr {
+    width: 450px;
+    height: 450px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -225px;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    border: solid 3.5px black;
+    position: absolute;
+    background-color: aliceblue;
+
+}
+.cell1 {
+    width: 150px;
+    height: 150px;
+    border: solid 3.5px black;
+    position: absolute;
+
+    display: none;
+}
+.show_cell{display: block;}
+.cell:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.selection {
+    width: 80%;
+    height: 80%;
+    display: none;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.win_player {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(194, 0, 0);
+    color: aliceblue;
+    border-radius: 20px;
+    border: 2px white solid;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+}
+
+.backgr_turn{
+    position: absolute;
+    top: -165px;
+    left: 50px;
+    width: 355px;
+    height: 150px; 
+    font-size: 30px;
+    text-align: center;
+
+}
+.turn{
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 350px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: rgb(255, 72, 0);
+    border: 2px solid rgb(190, 54, 0);
+}
+.turn_player1{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -20px;
+    display: block;
+}
+.turn_player2{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -20px;
+    display: none;
+}
+.restart_button{
+    width: 140px;
+    height: 60px;
+    position: absolute;
+    background-color: aliceblue;
+    bottom: 30%;
+    left: 50%;
+    margin-left: -70px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.restart_button:hover{
+    background-color: rgb(202, 202, 202);
+}
+.changecolor2{
+    background-color: rgb(0, 132, 255);
+    border: 2px solid rgb(0, 89, 172);
+}
+
+.showturn1{display: none;}
+.showturn2{display: block;}
+.showwin {
+    display: block;
+}
+
+.showX1 {
+    display: block;
+}
+
+.showY1 {
+    display: block;
+}
+
+.showX2 {
+    display: block;
+}
+
+.showY2 {
+    display: block;
+}
+
+.showX3 {
+    display: block;
+}
+
+.showY3 {
+    display: block;
+}
+
+.showX4 {
+    display: block;
+}
+
+.showY4 {
+    display: block;
+}
+
+.showX5 {
+    display: block;
+}
+
+.showY5 {
+    display: block;
+}
+
+.showX6 {
+    display: block;
+}
+
+.showY6 {
+    display: block;
+}
+
+.showX7 {
+    display: block;
+}
+
+.showY7 {
+    display: block;
+}
+
+.showX8 {
+    display: block;
+}
+
+.showY8 {
+    display: block;
+}
+
+.showX9 {
+    display: block;
+}
+
+.showY9 {
+    display: block;
+}
